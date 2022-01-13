@@ -6,14 +6,21 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
     <script src="p5.play.js"></script>
     
-<!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
 
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-    
-  // Your web app's Firebase configuration
-
-  // Initialize Firebase
+    <script>
+      var firebaseConfig = {
+        apiKey: "AIzaSyAKJQKkFpQyGmZbSryrXI8gxq1MNoiRf7c",
+        authDomain: "balao-de-ar-quente-f0e3a.firebaseapp.com",
+        projectId: "balao-de-ar-quente-f0e3a",
+        storageBucket: "balao-de-ar-quente-f0e3a.appspot.com",
+        messagingSenderId: "586478436260",
+        appId: "1:586478436260:web:f09374001a5adfcebd8b31",
+        databaseURL: "https://balao-de-ar-quente-f0e3a-default-rtdb.firebaseio.com/"
+      };
+      firebase.initializeApp(firebaseConfig);
+    </script>
 
     <link rel="stylesheet" type="text/css" href="style.css"/>
     <meta charset="utf-8">
